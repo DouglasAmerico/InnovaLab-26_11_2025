@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>IA no Ensino Superior - Prof. Douglas Américo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/black.min.css">
+
+    <style>
+        .reveal h1, .reveal h2, .reveal h3 { text-transform: none; }
+        .reveal ul { font-size: 0.8em; }
+        .highlight-red { color: #ff5e5e; font-weight: bold; }
+        .highlight-green { color: #42ffa7; font-weight: bold; }
+        .box-insight {
+            background: rgba(255, 255, 255, 0.1);
+            border-left: 5px solid #42ffa7;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+            font-style: italic;
+        }
+        .box-fail {
+            background: rgba(255, 94, 94, 0.1);
+            border-left: 5px solid #ff5e5e;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+
+            <section>
+                <h3>Implementação de IA no Ensino Superior</h3>
+                <h4 style="color: #aaa;">Estratégias, Práticas e Falhas</h4>
+                <hr>
+                <p>Uma análise bimestral: Do Gerenciamento de Projetos à Segurança com Java</p>
+                <p><small>Prof. Douglas Álex Américo</small></p>
+            </section>
+
+            <section>
+                <h3>O Cenário: A Jornada do Semestre</h3>
+                <ul>
+                    <li><strong>Contexto:</strong> Disciplinas ministradas em dois bimestres com níveis de complexidade distintos.</li>
+                    <li><strong>1º Bimestre (Fundação):</strong> Gestão de Projetos e Estrutura de Dados (Java).</li>
+                    <li><strong>2º Bimestre (Aplicação):</strong> Técnicas de Programação Intermediária 4 (Upload, JWT, RBAC).</li>
+                </ul>
+                <div class="fragment box-insight" style="margin-top: 30px; border-left-color: #7aaaff;">
+                    <strong>Objetivo Central:</strong> Utilizar IA para acelerar a curva de aprendizado técnica e desenvolver <em>soft skills</em> de adaptação tecnológica.
+                </div>
+            </section>
+
+            <section>
+                <h3>1º Bimestre: A Fundação</h3>
+                <div style="display: flex; justify-content: space-between;">
+                    <div style="width: 48%;">
+                        <h5 class="highlight-green">Gestão de Projetos</h5>
+                        <ul>
+                            <li>Implementação de IA para <em>brainstorming</em>.</li>
+                            <li>Desdobramento de escopo em <em>User Stories</em>.</li>
+                            <li>Visualização Ágil (Kanban).</li>
+                        </ul>
+                    </div>
+                    <div style="width: 48%;">
+                        <h5 class="highlight-green">Estrutura de Dados</h5>
+                        <ul>
+                            <li><strong>Abstração:</strong> Analogias via IA para explicar memória.</li>
+                            <li><strong>Foco na Lógica:</strong> Aceleração da escrita de código estrutural para focar no algoritmo.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3>O "Insight Cultural"</h3>
+                <p>O Ponto de Virada</p>
+                
+                <div class="box-insight">
+                    <p>"Durante uma dinâmica, identificou-se a ridicularização de um aluno pelo grupo por utilizar IA."</p>
+                </div>
+
+                <ul>
+                    <li class="fragment"><strong>Intervenção:</strong> Interrupção imediata para debate.</li>
+                    <li class="fragment"><strong>Quebra de Tabu:</strong> Legitimação do uso. "Não é trapaça, é eficiência profissional."</li>
+                    <li class="fragment"><strong>Impacto:</strong> O uso deixou de ser "oculto" e tornou-se estratégico.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>2º Bimestre: O Salto de Complexidade</h3>
+                <p><small>Temas: Upload, Validação, JWT, RBAC</small></p>
+                
+                <ul>
+                    <li><strong>Testes de Mesa Assistidos:</strong> IA detalhando o fluxo de dados e ciclo de vida do Token JWT passo a passo.</li>
+                    <li style="margin-top: 20px;"><strong>Sala de Aula Invertida (Via IDE):</strong></li>
+                    <ul>
+                        <li>Metodologia ativa.</li>
+                        <li>Discentes orientados a usar o chat da IA para sanar dúvidas pontuais.</li>
+                        <li>Foco na autonomia de investigação.</li>
+                    </ul>
+                </ul>
+            </section>
+
+            <section>
+                <h3 class="highlight-red">Onde a IA FALHOU</h3>
+                <p>A Experiência com Autocomplete no VS Code</p>
+
+                <div class="box-fail">
+                    <ul>
+                        <li><strong>O Problema:</strong> A IA tentava "codificar pelo aluno" antes da compreensão da lógica.</li>
+                        <li><strong>O Atrito:</strong> Sugestões alucinadas geraram confusão e frustração.</li>
+                        <li><strong>Consequência:</strong> Perda de confiança na ferramenta.</li>
+                    </ul>
+                </div>
+                <p class="fragment"><strong>Lição:</strong> Para aprendizes, a IA funciona melhor como <span class="highlight-green">Tutor (Chat)</span> do que como <span class="highlight-red">Executor (Autocomplete)</span>.</p>
+            </section>
+
+            <section>
+                <h3>Estratégia Transversal</h3>
+                <p>Estudo e Validação com <strong>NotebookLM</strong></p>
+                <ol>
+                    <li><strong>Input:</strong> Inserção dos slides e materiais do professor.</li>
+                    <li><strong>Prompt:</strong> Utilização da "Base de Formulação de Questões" (padrão de prova).</li>
+                    <li><strong>Output:</strong> Geração autônoma de simulados pelos alunos.</li>
+                </ol>
+                <p style="margin-top: 20px; color: #42ffa7;">Resultado: Redução da ansiedade pré-avaliação.</p>
+            </section>
+
+            <section>
+                <h3>Metodologia de Uso</h3>
+                <h4>"Macetes" vs. Alucinação</h4>
+                <br>
+                <ul>
+                    <li>Ensino focado em <strong>Engenharia de Prompt</strong>.</li>
+                    <li>O aluno atua como <strong>Validador</strong>.</li>
+                    <li>Se a IA erra, exige-se base teórica para correção (Professor como juiz final).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Engajamento & Gamificação</h3>
+                <p>Uso do <strong>Mentimeter</strong></p>
+                <br>
+                <ul>
+                    <li>Quizzes rápidos em tempo real.</li>
+                    <li>Rankings de competição saudável.</li>
+                    <li>Manutenção da turma ativa durante conceitos densos.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Conclusão</h3>
+                <ul>
+                    <li class="fragment">✅ <strong>Saldo Técnico:</strong> Aceleração do aprendizado em tópicos complexos (Segurança/JWT).</li>
+                    <li class="fragment">✅ <strong>Saldo Cultural:</strong> Superação do receio tecnológico.</li>
+                    <li class="fragment">⚠️ <strong>Alerta:</strong> A ferramenta errada no momento errado atrapalha. A curadoria docente sobre <em>como</em> usar é essencial.</li>
+                </ul>
+                <br>
+                <h4 style="margin-top: 40px;">Obrigado.</h4>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+            transition: 'slide', // none/fade/slide/convex/concave/zoom
+        });
+    </script>
+</body>
+</html>
